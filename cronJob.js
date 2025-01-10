@@ -1,4 +1,3 @@
-const axios = require("axios");
 const cron = require("node-cron");
 const Crypto = require("./models/Crypto");
 

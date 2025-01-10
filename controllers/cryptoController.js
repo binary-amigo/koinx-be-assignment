@@ -1,4 +1,3 @@
-// /controllers/cryptoController.js
 const Crypto = require('../models/Crypto');
 
 // Handler for fetching the latest cryptocurrency data
