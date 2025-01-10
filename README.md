@@ -37,7 +37,7 @@ Create a `.env` file in the root directory of your project and add the following
 
 ```plaintext  
 MONGODB_URI=<Your MongoDB Connection String>  
-COINGECKO_API=<Your CoinGecko API Key>  
+COIN_GECKO_API_KEY=<Your CoinGecko API Key>  
 PORT=<Port Number (Optional, default is 5000)>  
 ```  
 
@@ -68,7 +68,7 @@ npm run dev
 
   ```json  
   {  
-    "coin": "bitcoin" // (Required) Could be one of: bitcoin, matic-network, ethereum  
+    "coin": "bitcoin"
   }  
   ```  
 
@@ -90,7 +90,7 @@ npm run dev
 
   ```json  
   {  
-    "coin": "bitcoin" // (Required) Could be one of: bitcoin, matic-network, ethereum  
+    "coin": "bitcoin"
   }  
   ```  
 
