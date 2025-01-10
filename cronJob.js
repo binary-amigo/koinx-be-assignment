@@ -8,7 +8,7 @@ const getCryptoData = async (coin) => {
       method: "GET",
       headers: {
         accept: "application/json",
-        "x-cg-demo-api-key": "CG-CB6T9gSjB4dTfYVcbrgLwHh1",
+        "x-cg-demo-api-key": process.env.COIN_GECKO_API_KEY,
       },
     };
 
